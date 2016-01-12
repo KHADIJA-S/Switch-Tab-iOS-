@@ -18,6 +18,7 @@
 		CE241D131C43FD0300FC100C /* CAPSPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CE241D121C43FD0300FC100C /* CAPSPageMenu.m */; };
 		CE241D161C43FF4200FC100C /* InterestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE241D151C43FF4200FC100C /* InterestsViewController.m */; };
 		CE241D191C44099900FC100C /* AlertsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE241D181C44099900FC100C /* AlertsViewController.m */; };
+		CE241D231C44F5CE00FC100C /* UITabBarItem+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = CE241D221C44F5CE00FC100C /* UITabBarItem+CustomBadge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		CE241D151C43FF4200FC100C /* InterestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestsViewController.m; sourceTree = "<group>"; };
 		CE241D171C44099900FC100C /* AlertsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertsViewController.h; sourceTree = "<group>"; };
 		CE241D181C44099900FC100C /* AlertsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertsViewController.m; sourceTree = "<group>"; };
+		CE241D211C44F5CE00FC100C /* UITabBarItem+CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+CustomBadge.h"; sourceTree = "<group>"; };
+		CE241D221C44F5CE00FC100C /* UITabBarItem+CustomBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+CustomBadge.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +82,10 @@
 		CE241CCC1C43EAA200FC100C /* News */ = {
 			isa = PBXGroup;
 			children = (
+				CE241D101C43FD0300FC100C /* CAPSPageMenu */,
+				CE241D201C44F5CE00FC100C /* Util */,
 				CE241CD01C43EAA200FC100C /* AppDelegate.h */,
 				CE241CD11C43EAA200FC100C /* AppDelegate.m */,
-				CE241D101C43FD0300FC100C /* CAPSPageMenu */,
 				CE241D0C1C43F60900FC100C /* Tab Bar */,
 				CE241CD91C43EAA200FC100C /* Main.storyboard */,
 				CE241CDC1C43EAA300FC100C /* Assets.xcassets */,
@@ -142,6 +146,15 @@
 				CE241D121C43FD0300FC100C /* CAPSPageMenu.m */,
 			);
 			path = CAPSPageMenu;
+			sourceTree = "<group>";
+		};
+		CE241D201C44F5CE00FC100C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CE241D211C44F5CE00FC100C /* UITabBarItem+CustomBadge.h */,
+				CE241D221C44F5CE00FC100C /* UITabBarItem+CustomBadge.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE241CD81C43EAA200FC100C /* SecondViewController.m in Sources */,
+				CE241D231C44F5CE00FC100C /* UITabBarItem+CustomBadge.m in Sources */,
 				CE241CD21C43EAA200FC100C /* AppDelegate.m in Sources */,
 				CE241D161C43FF4200FC100C /* InterestsViewController.m in Sources */,
 				CE241D191C44099900FC100C /* AlertsViewController.m in Sources */,
